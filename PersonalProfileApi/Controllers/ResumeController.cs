@@ -12,7 +12,29 @@ namespace PersonalProfileApi.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        [Route("GetEducation")]
+        public ActionResult<IEnumerable<string>> GetEducation()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
+        [HttpGet]
+        [Route("GetSkills")]
+        public ActionResult<IEnumerable<string>> GetSkills()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
+        [HttpGet]
+        [Route("GetWorkExperience")]
+        public ActionResult<IEnumerable<string>> GetWorkExperience()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
+        [HttpGet]
+        [Route("GetExtracurriculars")]
+        public ActionResult<IEnumerable<string>> GetExtracurriculars()
         {
             return new string[] { "value1", "value2" };
         }

@@ -1,3 +1,7 @@
 # Ignore db.lock
 
-db.lock
+.vs
+dist
+bin/
+obj/
+Debug/*

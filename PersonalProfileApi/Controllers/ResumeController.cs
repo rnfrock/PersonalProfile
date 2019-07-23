@@ -8,7 +8,7 @@ namespace PersonalProfileApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ResumeController : ControllerBase
     {
         // GET api/values
         [HttpGet]
